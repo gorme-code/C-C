@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <label>Default</label>
+    <protected>false</protected>
+    <values>
+        <field>Min_Instructional_Days_Per_Year__c</field>
+        <value xsi:type="xsd:double">180</value>
+    </values>
+    <values>
+        <field>Hours_Per_Instructional_Day__c</field>
+        <value xsi:type="xsd:double">6.5</value>
+    </values>
+    <values>
+        <field>Tier2_Threshold__c</field>
+        <value xsi:type="xsd:double">3</value>
+    </values>
+    <values>
+        <field>Tier3_Threshold__c</field>
+        <value xsi:type="xsd:double">6</value>
+    </values>
+    <values>
+        <field>Tier4_Threshold__c</field>
+        <value xsi:type="xsd:double">9</value>
+    </values>
+</CustomMetadata>
