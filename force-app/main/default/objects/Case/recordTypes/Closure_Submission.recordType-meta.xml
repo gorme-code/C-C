@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closure_Submission</fullName>
+    <active>true</active>
+    <businessProcess>Closure_Submission_Process</businessProcess>
+    <description>Closure submission workflow + audit trail. One Case per submission event; Flow expands it into N Closure_Event__c rows.</description>
+    <label>Closure Submission</label>
+</RecordType>

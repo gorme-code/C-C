@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closure_Waiver_Request</fullName>
+    <active>true</active>
+    <businessProcess>Closure_Waiver_Process</businessProcess>
+    <description>Waiver workflow with statutory tier routing. Long-lived; references closures by Tier via Waiver_Closure_Link__c.</description>
+    <label>Closure Waiver Request</label>
+</RecordType>

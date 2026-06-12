@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layoutAssignments>
+        <layout>Case-Closure Submission Layout</layout>
+        <recordType>Case.Closure_Submission</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Closure Waiver Request Layout</layout>
+        <recordType>Case.Closure_Waiver_Request</recordType>
+    </layoutAssignments>
+</Profile>
