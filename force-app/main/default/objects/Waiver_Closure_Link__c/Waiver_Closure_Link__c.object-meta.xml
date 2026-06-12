@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Junction linking a Closure_Waiver_Request Case to the specific Closure_Event__c rows it covers. Many-to-many. Lookups (not master-detail) with Restrict Delete so compliance records are never cascade-deleted.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>Waiver Closure Link</label>
+    <nameField>
+        <displayFormat>WCL-{0000000}</displayFormat>
+        <label>Waiver Closure Link Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Waiver Closure Links</pluralLabel>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
