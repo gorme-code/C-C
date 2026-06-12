@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Rollup_Missed_Days</name>
+        <label>Roll Up YTD Missed Days</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <actionName>RollupMissedDays</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+    </actionCalls>
+    <apiVersion>62.0</apiVersion>
+    <description>Scheduled nightly at 2:00 AM. Calls invocable Apex to recompute Total_Missed_Days_YTD__c on School and District accounts for the current school year. Apex is used because Flow has no SUM/GROUP BY and a per-school query would be SOQL-in-loop.</description>
+    <environments>Default</environments>
+    <interviewLabel>Calculate YTD Missed Days {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Calculate YTD Missed Days</label>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>176</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Rollup_Missed_Days</targetReference>
+        </connector>
+        <schedule>
+            <frequency>Daily</frequency>
+            <startDate>2026-06-13</startDate>
+            <startTime>02:00:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>
