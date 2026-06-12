@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>District</fullName>
+    <active>true</active>
+    <description>School district. Parent Account of School-record-type Accounts. Referenced by Closure_Event__c.District__c and by flows/sharing rules that filter RecordType.DeveloperName = 'District'.</description>
+    <label>District</label>
+</RecordType>
