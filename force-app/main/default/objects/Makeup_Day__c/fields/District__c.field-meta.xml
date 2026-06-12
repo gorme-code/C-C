@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>District__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Denormalized for reporting.</description>
+    <label>District</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Makeup Days (District)</relationshipLabel>
+    <relationshipName>District</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>
